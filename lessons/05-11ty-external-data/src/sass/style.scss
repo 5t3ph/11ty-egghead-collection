@@ -1,4 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   color: rebeccapurple;
+  max-width: 100%;
+  width: 60ch;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+a {
+  color: scale-color(rebeccapurple, $lightness: -25%);
+}
+
+li + li {
+  margin-top: 1rem;
 }
